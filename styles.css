@@ -77,17 +77,12 @@ main {
     flex: 2;
 }
 
-.equals {
-   border: 1px solid black;
-   background-color: blue;
-    flex: 1;
-    
+.calcRows section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
-.calcCol {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+
 
 
